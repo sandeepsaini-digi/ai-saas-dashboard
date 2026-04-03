@@ -1,8 +1,8 @@
-# 🚀 AI SaaS Dashboard — Next.js 14 + OpenAI + Stripe + MongoDB
+# AI SaaS Dashboard — Next.js 14 + OpenAI + Stripe + MongoDB
 
 A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subscription management, and real-time insights. Built with Next.js 14 App Router, OpenAI GPT-4, Stripe, and MongoDB.
 
-## ✨ Features
+## Features
 
 - **AI Analytics Engine** — Ask natural language questions about your data using GPT-4
 - **Multi-tenant Architecture** — Isolated workspaces per organization with role-based access
@@ -13,7 +13,7 @@ A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subsc
 - **AI Report Generator** — Auto-generate PDF reports using OpenAI + PDFKit
 - **Dark / Light Mode** — System-aware theming with Tailwind CSS
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -26,7 +26,7 @@ A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subsc
 | Charts | Recharts, Chart.js |
 | Deployment | Vercel + MongoDB Atlas |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/
@@ -38,7 +38,7 @@ A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subsc
 └── models/User.ts, Organization.ts, Subscription.ts
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/sandeepsaini-digi/ai-saas-dashboard.git
@@ -48,7 +48,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-## 🧠 AI Features
+## AI Features
 
 **Natural Language Analytics** — Ask questions like:
 - *"What was our revenue trend last quarter?"*
@@ -58,7 +58,7 @@ The AI engine uses GPT-4o with RAG to query your MongoDB data and return structu
 
 **Auto Report Generation** — One click generates a full PDF with executive summary, metrics, and recommendations.
 
-## 💳 Subscription Tiers
+## Subscription Tiers
 
 | Feature | Free | Pro ($29/mo) | Enterprise |
 |---|---|---|---|
@@ -67,13 +67,13 @@ The AI engine uses GPT-4o with RAG to query your MongoDB data and return structu
 | Custom reports | ❌ | ✅ | ✅ |
 | API access | ❌ | ✅ | ✅ |
 
-## 🔐 Security
+## Security
 
 - JWT-based authentication with refresh token rotation
 - Row-level security for multi-tenant data isolation
 - API rate limiting with Redis
 - Stripe webhook signature verification
 
-## 📄 License
+## License
 
 MIT License
