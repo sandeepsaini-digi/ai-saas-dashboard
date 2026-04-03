@@ -2,7 +2,6 @@
 
 A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subscription management, and real-time insights. Built with Next.js 14 App Router, OpenAI GPT-4, Stripe, and MongoDB.
 
-![Dashboard Preview](https://via.placeholder.com/1200x600/0f172a/6366f1?text=AI+SaaS+Dashboard)
 
 ## Features
 
