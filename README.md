@@ -1,10 +1,10 @@
-# 🚀 AI SaaS Dashboard — Next.js 14 + OpenAI + Stripe + MongoDB
+# AI SaaS Dashboard — Next.js 14 + OpenAI + Stripe + MongoDB
 
 A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subscription management, and real-time insights. Built with Next.js 14 App Router, OpenAI GPT-4, Stripe, and MongoDB.
 
 ![Dashboard Preview](https://via.placeholder.com/1200x600/0f172a/6366f1?text=AI+SaaS+Dashboard)
 
-## ✨ Features
+## Features
 
 - **AI Analytics Engine** — Ask natural language questions about your data using GPT-4
 - **Multi-tenant Architecture** — Isolated workspaces per organization with role-based access
@@ -15,7 +15,7 @@ A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subsc
 - **AI Report Generator** — Auto-generate PDF reports using OpenAI + PDFKit
 - **Dark / Light Mode** — System-aware theming with Tailwind CSS
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -28,7 +28,7 @@ A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subsc
 | Charts | Recharts, Chart.js |
 | Deployment | Vercel + MongoDB Atlas |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/
@@ -65,7 +65,7 @@ A production-ready, multi-tenant SaaS dashboard with AI-powered analytics, subsc
 └── prisma/schema.prisma
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -110,7 +110,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## 🧠 AI Features
+## AI Features
 
 ### Natural Language Analytics
 Ask questions like:
@@ -126,7 +126,7 @@ One click generates a full PDF report with:
 - Key metrics and charts
 - Trend analysis and recommendations
 
-## 💳 Subscription Tiers
+## Subscription Tiers
 
 | Feature | Free | Pro ($29/mo) | Enterprise |
 |---|---|---|---|
@@ -136,7 +136,7 @@ One click generates a full PDF report with:
 | Custom reports | ❌ | ✅ | ✅ |
 | API access | ❌ | ✅ | ✅ |
 
-## 🔐 Security
+## Security
 
 - JWT-based authentication with refresh token rotation
 - Row-level security for multi-tenant data isolation
@@ -144,7 +144,7 @@ One click generates a full PDF report with:
 - Stripe webhook signature verification
 - Environment variable validation with Zod
 
-## 📦 Deployment
+## Deployment
 
 ### Deploy to Vercel
 
@@ -154,10 +154,10 @@ vercel --prod
 
 Set environment variables in Vercel dashboard and configure MongoDB Atlas IP whitelist.
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests welcome. For major changes, please open an issue first.
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
